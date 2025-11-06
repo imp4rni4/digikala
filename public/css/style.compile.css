@@ -7239,19 +7239,19 @@ progress {
   font-family: iransans;
   font-weight: bold;
   font-style: normal;
-  src: url(../../public/fonts/eot/IRANSansX-Bold.eot?#iefix) format("eot"), url(../../public/fonts/ttf/IRANSansX-Bold.ttf) format("truetype"), url(../../public/fonts/woff/IRANSansX-Bold.woff) format("woff");
+  src: url(../fonts/eot/IRANSansX-Bold.eot?#iefix) format("eot"), url(../fonts/ttf/IRANSansX-Bold.ttf) format("truetype"), url(../fonts/woff/IRANSansX-Bold.woff) format("woff");
 }
 @font-face {
   font-family: iransans;
   font-weight: 500;
   font-style: normal;
-  src: url(../../public/fonts/eot/IRANSansX-Medium.eot?@iefix) format("eot"), url(../../public/fonts/ttf/IRANSansX-Medium.ttf) format("truetype"), url(../../public/fonts/woff/IRANSansX-Medium.woff) format("woff");
+  src: url(../fonts/eot/IRANSansX-Medium.eot?@iefix) format("eot"), url(../fonts/ttf/IRANSansX-Medium.ttf) format("truetype"), url(../fonts/woff/IRANSansX-Medium.woff) format("woff");
 }
 @font-face {
   font-family: iransans;
   font-weight: normal;
   font-style: normal;
-  src: url(../../public/fonts/eot/IRANSansX-Regular.eot?#iefix) format("eot"), url(../../public/fonts/ttf/IRANSansX-Regular.ttf) format("truetype"), url(../../public/fonts/woff/IRANSansX-Regular.woff) format("woff");
+  src: url(../fonts/eot/IRANSansX-Regular.eot?#iefix) format("eot"), url(../fonts/ttf/IRANSansX-Regular.ttf) format("truetype"), url(../fonts/woff/IRANSansX-Regular.woff) format("woff");
 }
 .flex-center {
   display: flex;
