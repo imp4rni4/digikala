@@ -1,0 +1,36 @@
+* {
+  direction: rtl;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+}
+html {
+  font-size: 62.5%;
+  @include Responsive(phone) {
+    font-size: 35%;
+  }
+  @include Responsive(phoneL) {
+    font-size: 40%;
+  }
+  @include Responsive(tablet) {
+    font-size: 45%;
+  }
+  @include Responsive(tabletL) {
+    font-size: 50%;
+  }
+}
+body {
+  --bs-body-font-family: iransans, "sans-serif";
+  --bs-body-font-size: 1.6rem;
+}
+.swiper-wrapper {
+  cursor: grab;
+}

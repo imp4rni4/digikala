@@ -1,0 +1,10 @@
+.suggest {
+  @include Responsive(tablet) {
+    border: none !important;
+  }
+  &__item {
+    @include Responsive(tablet) {
+      border: none !important;
+    }
+  }
+}

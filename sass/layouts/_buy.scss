@@ -1,0 +1,11 @@
+.buy {
+  @include Responsive(phoneL) {
+    border: none !important;
+  }
+  &__item {
+    min-width: 14rem !important;
+    @include Responsive(phoneL) {
+      min-width: 22rem !important;
+    }
+  }
+}

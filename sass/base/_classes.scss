@@ -1,0 +1,25 @@
+// !centerize
+.flex-center {
+  @include CenterizeTag();
+}
+.flex-space {
+  @include CenterizeTag(space-between);
+}
+.position-center {
+  @include PositionCenter();
+}
+// ! width
+.container-80 {
+  width: 90vw;
+  margin: 2rem auto;
+}
+// ! ellipsis
+.ellipsis-1 {
+  @include TextBreak(1);
+}
+.ellipsis-2 {
+  @include TextBreak(2);
+}
+.ellipsis-1 {
+  @include TextBreak(3);
+}

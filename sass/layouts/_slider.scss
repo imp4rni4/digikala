@@ -1,0 +1,14 @@
+.slider {
+  max-height: 40rem;
+  position: relative;
+  &__btns {
+    position: absolute;
+    bottom: 3rem;
+    right: 8rem;
+    width: 10rem;
+  }
+  &__pic {
+    min-height: 17rem;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,50 @@
+@mixin CenterizeTag($justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin PositionCenter() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin TextBreak($line) {
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+// ! responsive
+@mixin Responsive($BreakPoint) {
+  // ! phone 576px
+  @if $BreakPoint==phone {
+    @media only screen and (max-width: 36em) {
+      @content;
+    }
+  }
+  // ! phone landscape 768px
+  @if $BreakPoint==phoneL {
+    @media only screen and (max-width: 48em) {
+      @content;
+    }
+  }
+  // ! tablet 992px
+  @if $BreakPoint==tablet {
+    @media only screen and (max-width: 62em) {
+      @content;
+    }
+  }
+  // ! tablet landscape 1200px
+  @if $BreakPoint==tabletL {
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+  // ! laptop 1800px
+  @if $BreakPoint==laptop {
+    @media only screen and (max-width: 112.5em) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+// ! utilities
+@import "utilities/variables";
+@import "utilities/mixins";
+// ! bootstrap
+@import "custom";
+// ! base
+@import "base/typography";
+@import "base/classes";
+@import "base/default";
+// ! layouts
+@import "layouts/header";
+@import "layouts/story";
+@import "layouts/slider";
+@import "layouts/brands";
+@import "layouts/amazing";
+@import "layouts/offer";
+@import "layouts/category";
+@import "layouts/pupular";
+@import "layouts/suggest";
+@import "layouts/digiplus";
+@import "layouts/digiclub";
+@import "layouts/buy";
+@import "layouts/footer";
+
+// ! components
+@import "components/btns";

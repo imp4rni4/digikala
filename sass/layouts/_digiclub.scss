@@ -1,0 +1,11 @@
+.digiclub {
+  @include Responsive(tabletL) {
+    border-radius: 0% !important;
+  }
+  &-item {
+    @include Responsive(phone) {
+      border-radius: 2rem !important;
+      overflow: hidden;
+    }
+  }
+}

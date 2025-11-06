@@ -1,0 +1,20 @@
+.footer {
+  &__download {
+    height: 4.4rem;
+    &-more {
+      width: 4.4rem;
+    }
+  }
+  &__details {
+    max-height: 17rem;
+    overflow: hidden;
+
+    &-more {
+      bottom: 1rem;
+    }
+  }
+  &__pay {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+}

@@ -1,0 +1,11 @@
+.amazing {
+  &__contant {
+    @include Responsive(tablet) {
+      border-radius: 0 !important;
+    }
+    &-item {
+      width: 16rem !important;
+      height: 26rem !important;
+    }
+  }
+}
